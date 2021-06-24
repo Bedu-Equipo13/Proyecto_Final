@@ -18,3 +18,11 @@ Aunado a lo anterior, la OMS ahonda en su reporte, indicando que el 93% de los a
 
 Proponer localización de unidades de atención a accidentes y predicción de severidad para mejorar acciones y tiempo de respuesta.
 
+# Conclusiones
+
+Es importante mencionar que este tipo de análisis son de gran importancia y utilidad para la reducción y prevención de siniestros automovilísticos, puesto que sientan la base para el diseño estratégico de ubicaciones de centros médicos carreteros, centros de atención y control, retenes, alcoholímetros, así como la base para enfatizar en señalética en puntos claves, diseño de vialidades, entre otros. 
+
+La NHTSA por ejemplo invierte alrededor de 43 millones anuales en sus planes de recolección de datos y análisis estadísticos sobre los factores determinantes en la generación de choques, y alrededor de 620 millones de usd de acuerdo con su presupuesto en 2020 para sus planes de contingencia y control. Esto no es solo una muestra de la importancia de este tipo de estudios, sino también un fuerte estímulo para continuar ahondando en los análisis y replicarlo en otros países.  
+
+
+
