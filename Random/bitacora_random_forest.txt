@@ -1,0 +1,866 @@
+columnas -turning_loop
+random_sampe: oversample
+random forest: 100
+class_weight: -None
+max_features="sqrt"
+Accuracy: 82.30619443160768%
+presicion [0.66628042 0.8662033  0.5268474  0.65024631]
+recall [0.52154195 0.92798421 0.37167792 0.29486225]
+fscore [0.58509285 0.89603008 0.43586428 0.4057377 ]
+support [  2205 205205  43083   2686]
+
+
+columnas -turning_loop
+random_sampe: oversample
+random forest: 100
+class_weight: {1: 28.82263206, 2: 0.30838861,3:1.4713036,4: 23.27003676} "balanced"
+max_features="sqrt"
+Accuracy: 82.00443164717453%
+presicion [0.66882734 0.85545517 0.51938694 0.67054611]
+recall [0.51473923 0.93899759 0.30283406 0.27885331]
+fscore [0.58175295 0.89528168 0.38259314 0.39389955]
+support [  2205 205205  43083   2686]
+
+
+columnas -turning_loop
+random_sampe: SMOTE
+random forest: 100
+class_weight: {1: 29.31205619, 2: 0.30800143,3:1.47842895,4: 23.39042868}  "balanced"
+max_features="sqrt"
+Accuracy: 82.11384040540487%
+presicion [0.62653061 0.83885308 0.5619181  0.72170301]
+recall [0.54336283 0.96644338 0.18497949 0.25674178]
+fscore [0.58199052 0.89813947 0.27833354 0.37874659]
+support [  2260 204818  43394   2707]
+
+
+columnas -turning_loop
+random_sampe: SMOTE
+random forest: 100
+class_weight: None
+max_features="sqrt"
+Accuracy: 83.10957859854096%
+presicion [0.63445168 0.85149123 0.60898782 0.73445732]
+recall [0.56061947 0.96110693 0.26731806 0.25748061]
+fscore [0.59525487 0.90298461 0.37154479 0.38129103]
+support [  2260 204818  43394   2707]
+support [  2205 205205  43083   2686]
+
+
+
+
+
+columnas -turning_loop
+only split 
+random forest: 100
+class_weight: None
+max_features="sqrt"
+precision    recall  f1-score   support
+
+           1       0.75      0.50      0.60      2260
+           2       0.86      0.96      0.91    204818
+           3       0.62      0.29      0.40     43394
+           4       0.74      0.26      0.39      2707
+
+    accuracy                           0.84    253179
+   macro avg       0.74      0.51      0.57    253179
+weighted avg       0.81      0.84      0.81    253179
+
+0.8352351498347019
+
+
+columnas -turning_loop
+only split 
+random forest: 100
+class_weight1 = {1: 29.31205619, 2: 0.30800143,3:1.47842895,4: 23.39042868} 
+max_features="sqrt"
+Accuracy: 82.41955296450337%
+presicion [0.75217101 0.84048037 0.57769086 0.74159664]
+recall [0.49823009 0.96803504 0.19740056 0.26080532]
+fscore [0.59941443 0.89975948 0.29425303 0.38589779]
+support [  2260 204818  43394   2707]
+
+
+columnas -turning_loop
+random_sample:undersample
+random forest: 100
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 8.630652621267956%
+presicion [0.15367627 0.90133518 0.28156727 0.01124966]
+recall [0.77928138 0.05068253 0.1735181  0.83164374]
+fscore [0.2567256  0.09596869 0.21471583 0.02219903]
+support [  2143 205120  43154   2762]
+
+
+columnas -turning_loop
+random_sample:undersample
+random forest: 100
+class_weight1 = {1: 28.29015197, 2: 0.30830349,3:1.47292423,4: 23.71172577} 
+max_features="sqrt"
+Accuracy: 9.197445285746449%
+presicion [0.20220448 0.89280306 0.26062629 0.01137696]
+recall [0.74475035 0.05461193 0.1899708  0.82910934]
+fscore [0.318055   0.10292787 0.21975901 0.02244592]
+support [  2143 205120  43154   2762]
+
+
+columnas -turning_loop
+random_sample:undersample all dataset
+random forest: 100
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 70.1443345834754%
+presicion [0.62217742 0.58050436 0.71301248 0.91008445]
+recall [0.70682547 0.56039326 0.71556351 0.81639929]
+fscore [0.6618057  0.57027156 0.71428571 0.86070002]
+support [2183 2136 2236 2244]
+
+
+columnas -turning_loop
+random_sample:undersample all dataset
+random forest: 100
+class_weight1 = {1: 28.29015197, 2: 0.30830349,3:1.47292423,4: 23.71172577} 
+max_features="sqrt"
+Accuracy: 69.49653369701102%
+presicion [0.63428087 0.56180297 0.69426194 0.90981565]
+recall [0.68483738 0.56601124 0.7088551  0.81372549]
+fscore [0.65859031 0.56389925 0.70148263 0.85909198]
+support [2183 2136 2236 2244]
+
+
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 100
+class_weight: -None
+max_features="sqrt"
+Accuracy: 82.4108634602396%
+presicion [0.67378753 0.86759118 0.53065764 0.68481848]
+recall [0.52757685 0.92717682 0.38142132 0.3093552 ]
+fscore [0.59178499 0.89639489 0.4438303  0.42618742]
+support [  2212 205127  43157   2683]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 100
+class_weight1 = {1: 28.88401278, 2: 0.30831049,3:1.47299279,4: 23.25293902} "balanced"
+max_features="sqrt"
+Accuracy: 82.13200936886551%
+presicion [0.68457944 0.85688919 0.52459784 0.68398268]
+recall [0.52983725 0.93865264 0.31132841 0.29444652]
+fscore [0.59734964 0.89590928 0.39075746 0.41167275]
+support [  2212 205127  43157   2683]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 100
+class_weight: {1: 28.88401278, 2: 0.30831049,3:1.47299279,4: 23.25293902} "balanced"
+max_features="sqrt"
+Accuracy: 82.36109629945612%
+presicion [0.64332248 0.84076077 0.57101248 0.74708995]
+recall [0.53571429 0.96718618 0.19079176 0.26313828]
+fscore [0.58460779 0.89955316 0.28601699 0.38919515]
+support [  2212 205127  43157   2683]
+
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 100
+class_weight:None
+max_features="sqrt"
+Accuracy: 83.13643706626537%
+presicion [0.62761506 0.85211466 0.60348447 0.76059322]
+recall [0.54249548 0.96070239 0.26646894 0.26761088]
+fscore [0.58195926 0.90315632 0.36969765 0.39591949]
+support [  2212 205127  43157   2683]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 100
+class_weight: None
+max_features="sqrt"
+
+     precision    recall  f1-score   support
+
+           1       0.76      0.49      0.59      2212
+           2       0.86      0.96      0.91    205127
+           3       0.62      0.30      0.40     43157
+           4       0.76      0.27      0.40      2683
+
+    accuracy                           0.84    253179
+   macro avg       0.75      0.51      0.58    253179
+weighted avg       0.81      0.84      0.81    253179
+
+0.8363450365156668
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 100
+class_weight: {1: 28.88401278, 2: 0.30831049,3:1.47299279,4: 23.25293902} "balanced"
+max_features="sqrt"
+Accuracy: 82.5988727343105%
+presicion [0.75437369 0.84212446 0.5821543  0.77223427]
+recall [0.48734177 0.96822944 0.20212248 0.26537458]
+fscore [0.59214502 0.90078486 0.30006364 0.39500693]
+support [  2212 205127  43157   2683]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample
+random forest: 100
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 8.403540578010023%
+presicion [0.15559738 0.90964237 0.28022106 0.01116995]
+recall [0.78481013 0.04897941 0.16683273 0.85464033]
+fscore [0.25970529 0.09295376 0.20914729 0.02205168]
+support [  2212 205127  43157   2683]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample
+random forest: 100
+class_weight: {1: 28.88401278, 2: 0.30831049,3:1.47299279,4: 23.25293902} "balanced"
+max_features="sqrt"
+Accuracy: 8.876723582919595%
+presicion [0.20318873 0.89635399 0.25310244 0.01122073]
+recall [0.74321881 0.05105617 0.1876173  0.84234066]
+fscore [0.31913035 0.09660949 0.21549476 0.02214644]
+support [  2212 205127  43157   2683]
+
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 100
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 69.7351971814979%
+presicion [0.60049221 0.59691418 0.70917031 0.90635954]
+recall [0.69154464 0.55341976 0.7256479  0.82011781]
+fscore [0.6428101  0.5743447  0.71731449 0.86108468]
+support [2117 2237 2238 2207]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 100
+class_weight: {1: 28.88401278, 2: 0.30831049,3:1.47299279,4: 23.25293902} "balanced"
+max_features="sqrt"
+Accuracy: 69.75792703716331%
+presicion [0.61780997 0.59322034 0.69383446 0.91071429]
+recall [0.68493151 0.56325436 0.73413762 0.80879021]
+fscore [0.64964158 0.57784912 0.71341728 0.85673146]
+support [2117 2237 2238 2207]
+
+
+----200 arboles---
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 200
+class_weight: -None
+max_features="sqrt"
+Accuracy: 82.48788406621402%
+presicion [0.68732394 0.86775356 0.53458101 0.67016129]
+recall [0.53982301 0.92798724 0.3819814  0.31358491]
+fscore [0.6047088  0.8968602  0.44557796 0.42724936]
+support [  2260 205047  43222   2650]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 200
+class_weight1 = {1: 29.31205619, 2: 0.30823042,3: 1.47447973,4: 23.06650875}  "balanced"
+max_features="sqrt"
+Accuracy: 82.15333815205842%
+presicion [0.68957617 0.85624289 0.5271601  0.67614126]
+recall [0.53274336 0.93993085 0.30715839 0.29622642]
+fscore [0.60109835 0.89613726 0.38815309 0.41196536]
+support [  2260 205047  43222   2650]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 200
+class_weight1 = {1: 29.31205619, 2: 0.30800143,3:1.47842895,4: 23.39042868} "balanced"
+max_features="sqrt"
+Accuracy: 82.35003693039312%
+presicion [0.63837449 0.84067173 0.57240181 0.73752711]
+recall [0.54911504 0.96728067 0.19050484 0.25660377]
+fscore [0.5903901  0.89954306 0.28586804 0.38073908]
+support [  2260 205047  43222   2650]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 200
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 83.2478207118284%
+presicion [0.62840178 0.85309756 0.61184655 0.72630458]
+recall [0.5619469  0.96089189 0.27268521 0.25735849]
+fscore [0.59331932 0.90379195 0.37724254 0.38005015]
+support [  2260 205047  43222   2650]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 200
+class_weight: None
+max_features="sqrt"
+              precision    recall  f1-score   support
+
+           1       0.77      0.50      0.61      2260
+           2       0.86      0.96      0.91    205047
+           3       0.63      0.29      0.40     43222
+           4       0.74      0.27      0.39      2650
+
+    accuracy                           0.84    253179
+   macro avg       0.75      0.51      0.58    253179
+weighted avg       0.82      0.84      0.81    253179
+
+0.8369651511381275
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 200
+class_weight1 = {1: 29.31205619, 2: 0.30800143,3:1.47842895,4: 23.39042868}  "balanced"
+max_features="sqrt"
+Accuracy: 82.53409642979868%
+presicion [0.76907495 0.8414353  0.57936025 0.74102285]
+recall [0.5039823  0.96842187 0.19820925 0.25698113]
+fscore [0.60892809 0.90047365 0.29536796 0.3816195 ]
+support [  2260 205047  43222   2650]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 200
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 8.586415145015977%
+presicion [0.16365289 0.90750659 0.28267331 0.01082657]
+recall [0.79690265 0.05206123 0.16283374 0.83962264]
+fscore [0.27154165 0.09847332 0.20663535 0.02137748]
+support [  2260 205047  43222   2650]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 200
+class_weight: {1: 29.31205619, 2: 0.30823042,3: 1.47447973,4: 23.06650875} "balanced"
+max_features="sqrt"
+Accuracy: 9.11410504030745%
+presicion [0.21177914 0.89958226 0.25688785 0.01094433]
+recall [0.76371681 0.05461187 0.18379529 0.83283019]
+fscore [0.33160423 0.10297248 0.21427993 0.02160474]
+support [  2260 205047  43222   2650]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 200
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 69.4397090578475%
+presicion [0.61100196 0.59253805 0.69699686 0.90281974]
+recall [0.70489574 0.53739982 0.72359237 0.81574158]
+fscore [0.65459903 0.56362363 0.71004566 0.85707457]
+support [2206 2246 2149 2198]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 200
+class_weight: {1: 29.31205619, 2: 0.30823042,3: 1.47447973,4: 23.06650875} "balanced"
+max_features="sqrt"
+Accuracy: 68.96238208887372%
+presicion [0.62646566 0.56966086 0.68253275 0.91077875]
+recall [0.6781505  0.55342832 0.72731503 0.80345769]
+fscore [0.65128428 0.56142728 0.70421266 0.85375876]
+support [2206 2246 2149 2198]
+
+
+-------------300-----------------------------------------
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 300
+class_weight: -None
+max_features="sqrt"
+Accuracy: 82.67075863321998%
+presicion [0.69208211 0.86893012 0.53901287 0.65665584]
+recall [0.53611995 0.92926661 0.38483009 0.30040847]
+fscore [0.60419867 0.8980861  0.44905548 0.4122293 ]
+support [  2201 205292  42993   2693]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: oversample
+random forest: 300
+class_weight1 = {1: 28.78767435, 2: 0.30847578,3: 1.4692544,4: 23.31002946}   "balanced"
+max_features="sqrt"
+Accuracy: 82.34806204306044%
+presicion [0.69754931 0.85761094 0.53281561 0.67011197]
+recall [0.53021354 0.94092317 0.31119019 0.28889714]
+fscore [0.60247806 0.89733745 0.39290486 0.40373638]
+support [  2201 205292  42993   2693]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 300
+class_weight1 = {1: 28.78767435, 2: 0.30847578,3: 1.4692544,4: 23.31002946} "balanced"
+max_features="sqrt"
+Accuracy: 82.44562147729472%
+presicion [0.65189189 0.84081645 0.57511653 0.74330357]
+recall [0.54793276 0.96858621 0.186542   0.24730784]
+fscore [0.59540854 0.90019014 0.28170993 0.37113402]
+support [  2201 205292  42993   2693]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sampe: SMOTE
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 83.25690519355871%
+presicion [0.63026521 0.8524136  0.61036448 0.7480663 ]
+recall [0.55065879 0.96226838 0.2640895  0.2513925 ]
+fscore [0.58777886 0.90401587 0.36866629 0.37632018]
+support [  2201 205292  42993   2693]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 300
+class_weight: None
+max_features="sqrt"
+             precision    recall  f1-score   support
+
+           1       0.77      0.50      0.61      2201
+           2       0.86      0.96      0.91    205292
+           3       0.62      0.29      0.40     42993
+           4       0.76      0.26      0.38      2693
+
+    accuracy                           0.84    253179
+   macro avg       0.75      0.50      0.57    253179
+weighted avg       0.82      0.84      0.81    253179
+
+0.837036247082104
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+only split 
+random forest: 300
+class_weight1 = {1: 28.78767435, 2: 0.30847578,3: 1.4692544,4: 23.31002946}   "balanced"
+max_features="sqrt"
+Accuracy: 82.6699686782869%
+presicion [0.77301927 0.84195904 0.58584526 0.75362319]
+recall [0.49204907 0.96988192 0.19619473 0.25102117]
+fscore [0.60133259 0.90140456 0.29394853 0.37660167]
+support [  2201 205292  42993   2693]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 8.64882158472859%
+presicion [0.16016909 0.90686728 0.28441942 0.01108987]
+recall [0.77464789 0.05255441 0.16567813 0.84663944]
+fscore [0.26545228 0.09935126 0.20938607 0.02189297]
+support [  2201 205292  42993   2693]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample
+random forest: 300
+class_weight1 = {1: 28.78767435, 2: 0.30847578,3: 1.4692544,4: 23.31002946} "balanced"
+max_features="sqrt"
+Accuracy: 8.939525000098744%
+presicion [0.20755198 0.89543993 0.25556167 0.01114505]
+recall [0.73920945 0.05289539 0.18356477 0.83735611]
+fscore [0.32410359 0.09989007 0.2136611  0.02199732]
+support [  2201 205292  42993   2693]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 69.56472326400728%
+presicion [0.621655   0.57841328 0.70483799 0.90764495]
+recall [0.67865169 0.56384892 0.73757548 0.80518889]
+fscore [0.64890417 0.57103825 0.72083522 0.85335263]
+support [2225 2224 2153 2197]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop"]
+random_sample:undersample all dataset
+random forest: 300
+class_weight1 = {1: 28.78767435, 2: 0.30847578,3: 1.4692544,4: 23.31002946} "balanced"
+max_features="sqrt"
+Accuracy: 69.30332992385499%
+presicion [0.64010508 0.56785244 0.69013472 0.90604027]
+recall [0.65707865 0.58138489 0.73757548 0.79881657]
+fscore [0.64848082 0.57453899 0.71306691 0.8490566 ]
+support [2225 2224 2153 2197]
+
+
+-----------------300 - "Railway", "Amenity"-------------
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sampe: oversample
+random forest: 300
+class_weight: -None
+max_features="sqrt"
+Accuracy: 82.50684298460773%
+presicion [0.67647059 0.87015099 0.53021711 0.68583333]
+recall [0.53321444 0.92519873 0.39448044 0.3014652 ]
+fscore [0.59636001 0.89683094 0.45238636 0.41882952]
+support [  2243 205304  42902   2730]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sampe: oversample
+random forest: 300
+class_weight1 = {1: 29.15901413, 2:  0.30848781,3: 1.46718822,4: 23.52372398}     "balanced"
+max_features="sqrt"
+Accuracy: 82.18217150711553%
+presicion [0.68094962 0.8580124  0.52358509 0.68324607]
+recall [0.52429782 0.93790671 0.31590602 0.28681319]
+fscore [0.59244332 0.89618244 0.39405702 0.40402477]
+support [  2243 205304  42902   2730]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sampe: SMOTE
+random forest: 300
+class_weight1 = {1: 29.15901413, 2:  0.30848781,3: 1.46718822,4: 23.52372398}  "balanced"
+max_features="sqrt"
+Accuracy: 82.44917627449354%
+presicion [0.63535032 0.84244687 0.5699154  0.76763006]
+recall [0.53366028 0.96602112 0.19940795 0.24322344]
+fscore [0.58008238 0.90001203 0.29544316 0.36940195]
+support [  2243 205304  42902   2730]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sampe: SMOTE
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 83.36828883912173%
+presicion [0.64463247 0.85516205 0.60795653 0.76228571]
+recall [0.54346857 0.95950396 0.28425248 0.24432234]
+fscore [0.58974359 0.90433322 0.38738267 0.37004161]
+support [  2243 205304  42902   2730]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+only split 
+random forest: 300
+class_weight: None
+max_features="sqrt"
+            precision    recall  f1-score   support
+
+           1       0.76      0.50      0.60      2243
+           2       0.86      0.96      0.91    205304
+           3       0.62      0.32      0.42     42902
+           4       0.78      0.25      0.38      2730
+
+    accuracy                           0.84    253179
+   macro avg       0.76      0.51      0.58    253179
+weighted avg       0.82      0.84      0.82    253179
+
+0.838126384889742
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+only split 
+random forest: 300
+class_weight1 = {1: 29.15901413, 2:  0.30848781,3: 1.46718822,4: 23.52372398}    "balanced"
+max_features="sqrt"
+Accuracy: 82.64705998522784%
+presicion [0.76104972 0.84350435 0.5768933  0.77564825]
+recall [0.49130629 0.96691735 0.20845182 0.25201465]
+fscore [0.59712815 0.90100443 0.30624615 0.38042577]
+support [  2243 205304  42902   2730]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sample:undersample
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 8.569826091421485%
+presicion [0.16821456 0.91474337 0.2870731  0.01112165]
+recall [0.79135087 0.05173791 0.16320917 0.84175824]
+fscore [0.27745213 0.09793653 0.20810485 0.02195325]
+support [  2243 205304  42902   2730]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sample:undersample
+random forest: 300
+class_weight1 = {1: 29.15901413, 2:  0.30848781,3: 1.46718822,4: 23.52372398}  "balanced"
+max_features="sqrt"
+Accuracy: 8.88778295198259%
+presicion [0.21724312 0.90286995 0.25671575 0.01120847]
+recall [0.76727597 0.05102677 0.18733392 0.83076923]
+fscore [0.33861289 0.09659439 0.21660445 0.02211852]
+support [  2243 205304  42902   2730]
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sample:undersample all dataset
+random forest: 300
+class_weight1 = None
+max_features="sqrt"
+Accuracy: 70.61029662461642%
+presicion [0.63658737 0.58226037 0.71745891 0.90660705]
+recall [0.6990991  0.555      0.7398076  0.83105647]
+fscore [0.66638042 0.56830347 0.72846189 0.86718936]
+support [2220 2200 2183 2196]
+
+
+columnas -["No_Exit", "Give_Way", "Traffic_Calming","Bump", "Roundabout", "Turning_Loop","Railway", "Amenity"]
+random_sample:undersample all dataset
+random forest: 300
+class_weight1 = {1: 29.15901413, 2:  0.30848781,3: 1.46718822,4: 23.52372398} "balanced"
+max_features="sqrt"
+Accuracy: 68.96238208887372%
+presicion [0.63968324 0.54783394 0.68576315 0.91121258]
+recall [0.65495495 0.55181818 0.73476867 0.81785064]
+fscore [0.64722902 0.54981884 0.70942061 0.86201104]
+support [2220 2200 2183 2196]
+
+
+
+
+
+
+
+bosque = forest(n_estimators = 200,max_features='sqrt')
+bosque.fit(X_sm, y_sm)
+y_pred = bosque.predict(x_test)
+
+Accuracy: 83.2501905766276%
+presicion [0.62832311 0.85336933 0.6103284  0.75026015]
+recall [0.54817128 0.96029749 0.27564266 0.27023988]
+fscore [0.58551691 0.90368133 0.37976984 0.39735464]
+support [  2242 205050  43219   2668]
+
+
+Accuracy: 83.25888008089139%
+presicion [0.63076923 0.85292475 0.61296864 0.74711438]
+recall [0.54861731 0.9610534  0.27275041 0.26686657]
+fscore [0.58683206 0.90376638 0.37751801 0.39326153]
+support [  2242 205050  43219   2668]
+
+
+
+
+
+
+
+
+
+
+
+under
+
+
+bosque = forest(n_estimators = 200)
+bosque.fit(x_train, y_train)
+y_pred = bosque.predict(x_test)
+
+
+
+Accuracy: 70.22388907830435%
+presicion [0.62803664 0.57940327 0.72197107 0.9014014 ]
+recall [0.717797   0.55612009 0.72557928 0.80545617]
+fscore [0.66992353 0.56752298 0.72377068 0.85073217]
+support [2197 2165 2201 2236]
+
+
+bosque = forest(n_estimators = 350)
+bosque.fit(x_train, y_train)
+y_pred = bosque.predict(x_test)
+
+
+Accuracy: 70.48528241845663%
+presicion [0.63111468 0.58145123 0.72370203 0.90343454]
+recall [0.7164315  0.55889145 0.72830532 0.81171735]
+fscore [0.67107227 0.56994819 0.72599638 0.85512367]
+support [2197 2165 2201 2236]
+
+
+
+bosque = forest(n_estimators = 300)
+bosque.fit(x_train, y_train)
+y_pred = bosque.predict(x_test)
+
+Accuracy: 70.65575633594726%
+presicion [0.62763001 0.58592233 0.73030167 0.90395198]
+recall [0.71961766 0.55750577 0.73693776 0.80813953]
+fscore [0.67048346 0.57136095 0.7336047  0.85336482]
+support [2197 2165 2201 2236]
+
+
+
+
+bosque = forest(n_estimators = 400)
+bosque.fit(x_train, y_train)
+y_pred = bosque.predict(x_test)
+
+Accuracy: 70.54210705762019%
+presicion [0.62939297 0.58069164 0.73061224 0.90189243]
+recall [0.71734183 0.55842956 0.73194003 0.80992844]
+fscore [0.67049564 0.56934307 0.73127553 0.85344015]
+support [2197 2165 2201 2236]
+
+Accuracy: 70.59893169678372%
+presicion [0.62529738 0.58634146 0.72948602 0.90343454]
+recall [0.717797   0.5551963  0.7351204  0.81171735]
+fscore [0.66836194 0.57034401 0.73229237 0.85512367]
+support [2197 2165 2201 2236]
+
+
+
+bosque = forest(n_estimators = 450,max_features='sqrt')
+#bosque = forest(n_estimators = 400)
+bosque.fit(x_train, y_train)
+Accuracy: 70.48528241845663%
+presicion [0.62964443 0.58482359 0.72392086 0.90164753]
+recall [0.71734183 0.55889145 0.73148569 0.80769231]
+fscore [0.6706383  0.57156353 0.72768362 0.85208776]
+support [2197 2165 2201 2236]
+
+
+
+
+bosque = forest(n_estimators = 500,max_features='sqrt')
+#bosque = forest(n_estimators = 400)
+bosque.fit(x_train, y_train)
+Accuracy: 70.51937720195477%
+presicion [0.62943757 0.58632396 0.72359551 0.90174564]
+recall [0.71825216 0.55842956 0.73148569 0.80858676]
+fscore [0.67091837 0.57203691 0.7275192  0.8526291 ]
+support [2197 2165 2201 2236]
+
+
+oversample
+bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+print(resultado)
+Accuracy: 82.60361246390893%
+presicion [0.67180365 0.8695265  0.53531956 0.68 ]
+recall [0.54591837 0.92738342 0.38931991 0.29996399]
+fscore [0.60235415 0.89752352 0.45079314 0.41629185]
+support [  2156 205325  42921   2777]
+
+sqrt
+Accuracy: 82.58623345538138%
+presicion [0.66197975 0.86957435 0.53505323 0.67941416]
+recall [0.54591837 0.92702788 0.38994898 0.30068419]
+fscore [0.59837316 0.89738247 0.45111992 0.41687469]
+support [  2156 205325  42921   2777]
+
+
+
+
+
+bosque = forest(n_estimators = 150,max_features='sqrt')
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+Accuracy: 82.54278593406245%
+presicion [0.67727273 0.86923555 0.53418585 0.67379256]
+recall [0.52418646 0.92667917 0.38950379 0.31944444]
+fscore [0.5909767  0.89703867 0.45051369 0.43340973]
+support [  2274 205235  43006   2664]
+
+
+bosque = forest(n_estimators = 150)
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+
+Accuracy: 82.54673570872781%
+presicion [0.67538374 0.86921235 0.53471225 0.66745843]
+recall [0.52242744 0.92678149 0.38952704 0.31644144]
+fscore [0.5891396  0.89707426 0.45071635 0.42933537]
+support [  2274 205235  43006   2664]
+
+
+
+bosque = forest(n_estimators = 180)
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+print(resultado)
+Accuracy: 82.57003937925342%
+presicion [0.67588933 0.86931688 0.53555563 0.66666667]
+recall [0.52638522 0.92698614 0.38964331 0.31756757]
+fscore [0.59184178 0.89722579 0.45109361 0.43020595]
+support [  2274 205235  43006   2664]
+
+
+
+
+
+
+
+bosque = forest(n_estimators = 180,max_features='sqrt')
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+Accuracy: 82.59255309484594%
+presicion [0.67785999 0.86926337 0.53667521 0.66852146]
+recall [0.5237467  0.92732721 0.3895968  0.31569069]
+fscore [0.59092037 0.89735701 0.45145906 0.42886283]
+support [  2274 205235  43006   2664]
+
+
+
+
+bosque = forest(n_estimators = 250,max_features='sqrt')
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+print(resultado)
+
+Accuracy: 82.60993210337351%
+presicion [0.67889908 0.86937219 0.53727712 0.67168914]
+recall [0.52066843 0.92740517 0.39027112 0.31794294]
+fscore [0.58934793 0.89745149 0.45212472 0.43159236]
+support [  2274 205235  43006   2664]
+
+
+
+bosque = forest(n_estimators = 250)
+#bosque = forest(n_estimators = 150)
+bosque.fit(x_train_us, y_train_us)
+y_pred = bosque.predict(x_test)
+resultado = confusion_matrix(y_test, y_pred)
+print(resultado)
+Accuracy: 82.60321748644239%
+presicion [0.67404884 0.86937375 0.53721362 0.67196187]
+recall [0.52198769 0.92728823 0.39038739 0.31756757]
+fscore [0.58835192 0.89739757 0.45218024 0.43130257]
+support [  2274 205235  43006   2664]
+
+
+
+
+
